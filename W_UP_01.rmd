@@ -51,7 +51,7 @@ ggplot(mydata, aes(x = position, y = pushups)) +
 ```
 
 
-The skill box did better than the line box pushups. the dark line in the box shows that they did of a percentage of 48% while the line players did about 14% of pushups.
+The skill box did better than the line box on pushups.The the percentage that it shows on the side of the graph is based on the push ups. The dark line that is in the box is the median . The median for the skill player were around 47.5% and the for the line it was 17.5%
 
 
 ### Numerical Descriptive Results
@@ -60,6 +60,9 @@ The skill box did better than the line box pushups. the dark line in the box sho
 ```{r}
 favstats(pushups~position,data=mydata)
 ```
+
+The skills are doing a lot more pushups then the line player. based off what the graph is showing from the ,in, ,median, and mean scores
+
 ## Inferential Results
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
