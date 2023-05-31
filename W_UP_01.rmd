@@ -66,9 +66,13 @@ The skills are doing a lot more pushups then the line player. based off what the
 ## Inferential Results
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+```{r}
+t.test(pushups~position,data=mydata)
+```
 
+The data shown above shows that the skill player did more pushups then the line players and the mean scores there is a 32.6% different between the line and skill player.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
-
+In conclusion we look at a box plot and some numerical data that showed that skilled player did better at doing pushups then the line player
